@@ -49,7 +49,7 @@ public class MyClass {
 
         //search for a product
         homePage.SearchForProduct(searchCriteria);
-        log.info("Searched For the Product");
+        log.info("Searched For Product");
         //verify the searched results
         searchResultPage.VerifySearchedResults();
         log.info("Searched Results Were Displayed");
